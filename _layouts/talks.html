@@ -1,0 +1,33 @@
+---
+layout: default
+class: 'page-template'
+---
+<!-- < default -->
+
+{% include page_banner.html %}
+
+<main class="content" role="main">
+    <article class="post">
+
+        {% for talk in site.data.talks %}
+        <section class="post-content">
+            <table>
+                <td>
+                    <section class="post-excerpt">
+                        <p class="pub-title"><i>“{{ talk.title }}”</i></p>
+                        <p class="pub-authors">{{ talk.speaker }}</p>
+                        <p class="pub-venue">{{ talk.venue }}</p>
+                    </section>
+                    <section class="post-meta">
+                        <a href="{{ talk.url }}">WATCH</a>
+                        <time class="post-date" datetime="{{ talk.date | date:'%m-%d-%Y' }}">{{ talk.date }}</time>
+                    </section>
+                </td>
+            </table>
+        </section>
+        {% endfor %}
+
+    </article>
+
+</main>
+<!-- /post -->

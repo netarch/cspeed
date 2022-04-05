@@ -1,0 +1,16 @@
+#!/bin/sh
+# -*- mode: sh; coding: utf-8; fill-column: 80; -*-
+#
+# Script to deploy the site.
+#
+
+readonly SCRIPT_DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
+# Site contents.
+readonly SITE_DIR='_site'
+
+
+# Property defaults.
+[ -z "$SITE_CREDS" ] && export SITE_CREDS='cspeedweb@cspeed.net'
+
+cd $SITE_DIR
+rsync -avRD --rsh=ssh --stats --exclude=".*" --delete . $SITE_CREDS:public_html

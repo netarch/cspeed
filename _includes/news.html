@@ -1,0 +1,15 @@
+<article class="post">
+    {% if page.full %}
+    {% for newsitem in site.data.newsitems %}
+    {% include newspiece.html %}
+    {% endfor %}
+    {% else %}
+    <header class="post-header">
+        <h1 class="post-title">In the News</h1>
+    </header>
+    {% for newsitem in site.data.newsitems limit:3 %}
+    {% include newspiece.html %}
+    {% endfor %}
+    <a class="more" href="{{ site.baseurl }}news">More news ...</a>
+    {% endif %}
+</article>

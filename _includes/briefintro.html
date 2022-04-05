@@ -1,0 +1,14 @@
+{% unless page.full %}
+<section class="post-content">
+    <article class="post">
+        <header class="post-header">
+            <h1 class="post-title">About the Project</h1>
+        </header>
+{% endunless %}
+{% capture intropiece %}{% include intropiece.md %}{% endcapture %}
+{{ intropiece | markdownify }}
+{% unless page.full %}
+        <a class="more" href="{{ site.baseurl }}about">Read more ...</a>
+    </article>
+</section>
+{% endunless %}

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- [[! Document Settings ]] -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- [[! Page Meta ]] -->
+    <title>The Internet at the Speed of Light</title>
+    <meta name="description" content="The Internet at the Speed of Light - Reducing latency to the physical limit is the next grand challenge for our interactive network experiences. How can we build a Speed-of-Light Internet?" />
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="/assets/images/favicon.ico" >
+
+    <!-- [[! Styles'n'Scripts ]] -->
+    <link rel="stylesheet" type="text/css" href="/assets/css/screen.css" />
+    <link rel="stylesheet" type="text/css"
+          href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/syntax.css" />
+
+    <!-- [[! highlight.js ]] -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/styles/default.min.css">
+    <style>.hljs { background: none; }</style>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+    <!-- [[! Ghost outputs important style and meta data with this tag ]] -->
+        <link rel="canonical" href="/" />
+    <meta name="referrer" content="origin" />
+    <link rel="next" href="/page2/" />
+
+    <meta property="og:site_name" content="The Internet at the Speed of Light" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="The Internet at the Speed of Light" />
+    <meta property="og:description" content="Reducing latency to the physical limit is the next grand challenge for our interactive network experiences. How can we build a Speed-of-Light Internet?" />
+    <meta property="og:url" content="/" />
+    <meta property="og:image" content="/assets/images/banner.jpg" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="The Internet at the Speed of Light" />
+    <meta name="twitter:description" content="Reducing latency to the physical limit is the next grand challenge for our interactive network experiences. How can we build a Speed-of-Light Internet?" />
+    <meta name="twitter:url" content="/" />
+    <meta name="twitter:image:src" content="/assets/images/cover1.jpg" />
+
+    <script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "Website",
+    "publisher": "The Internet at the Speed of Light",
+    "url": "/",
+    "image": "/assets/images/banner.jpg",
+    "description": "Reducing latency to the physical limit is the next grand challenge for our interactive network experiences. How can we build a Speed-of-Light Internet?"
+}
+    </script>
+
+    <meta name="generator" content="Jekyll 3.0.0" />
+    <link rel="alternate" type="application/rss+xml" title="The Internet at the Speed of Light" href="/feed.xml" />
+
+
+</head>
+<body class="page-template nav-closed">
+
+    <div class="nav">
+    <h3 class="nav-title">Menu</h3>
+    <a href="#" class="nav-close">
+        <span class="hidden">Close</span>
+    </a>
+    <ul>
+        <li class="nav-home " role="presentation"><a href="/">Home</a></li>
+        <li class="nav-about  nav-current" role="presentation"><a href="/about">About</a></li>
+        <li class="nav-news " role="presentation"><a href="/news">News</a></li>
+        <li class="nav-talks " role="presentation"><a href="/talks">Talks</a></li>
+        <li class="nav-pubs " role="presentation"><a href="/publications">Publications</a></li>
+        <li class="nav-team " role="presentation"><a href="/team">Team</a></li>
+    </ul>
+</div>
+<span class="nav-cover"></span>
+
+
+    <div class="site-wrapper">
+
+        <!-- [[! Everything else gets inserted here ]] -->
+        <!-- < default -->
+
+<!-- This is a page template. A page outputs content just like any other post, and has all the same -->
+    <!-- attributes by default, but you can also customise it to behave differently if you prefer.  -->
+
+<!-- Everything inside the #post tags pulls data from the page -->
+<!-- #post -->
+
+<header class="main-header post-head no-cover">
+    <nav class="main-nav  clearfix">
+        
+        
+            <a class="menu-button icon-menu" href="#"><span class="word">Menu</span></a>
+            
+        
+    </nav>
+</header>
+
+<main class="content" role="main">
+    <article class="post">
+        <!-- Everything inside the #post tags pulls data from the post -->
+
+        <header class="post-header">
+            <h1 class="post-title">The Internet at the Speed of Light</h1>
+        </header>
+
+        <section class="post-content">
+            
+<p>For many Internet services, reducing latency improves the user experience and increases revenue for the service provider. While in principle latencies could nearly match the speed of light, we find that infrastructural inefficiencies and protocol overheads cause today’s Internet to be much slower than this bound: typically by more than one, and often, by more than two orders of magnitude. Bridging this large gap would not only add value to today’s Internet applications, but could also open the door to exciting new applications. Thus, we propose a grand challenge for the networking research community: <em>a speed-of-light Internet</em>.</p>
+
+<h3 id="the-internet-is-too-slow">The Internet is too slow!</h3>
+
+<p>We fetched just the HTML for landing pages of <em>22,800</em> popular Websites from 102_ PlanetLab nodes using <a href="https://curl.haxx.se">cURL</a>. For each connection, we geolocated the Web server using six commercial geolocation services, and (since we do not have any basis for deciding which service is better than another) used the location identified by their majority vote. We computed the time it would take for light to travel round-trip along the shortest path between the same end-points, i.e., the <em>c-latency</em>. We refer to the ratio of the fetch time to c-latency as the Internet’s latency <em>inflation</em>. The figure below shows the CDF of this inflation over <em>1.9 million</em> connections. The time to finish HTML retrieval is, in the median, <em>36.5×</em> the c-latency, while the 80<sup>th</sup> percentile exceeds <em>100×</em>. Thus, the Internet is typically more than an order of magnitude slower than the speed of light. Moreover, since PlanetLab nodes are generally well-connected, latency can be expected to be poorer from the Internet’s <em>true edge</em>.</p>
+
+<p><img src="/assets/plots/pam17-onlyTotal.png" alt="&quot;Fetch time of just the HTML of the landing pages of popular Websites in terms of inflation over the speed of light. In the median, fetch time is 36.5× slower.&quot;" title="Fetch time of just the HTML of the landing pages of popular Websites in terms of inflation over the speed of light. In the median, fetch time is 36.5× slower." /></p>
+
+<h3 id="but-why-is-the-internet-so-slow">But why is the Internet so slow?</h3>
+
+<p>To identify the causes of Internet latency inflation, we break down the fetch time across layers, from inflation in the physical path followed by packets to the TCP transfer time.</p>
+
+<p><img src="/assets/plots/pam17-pl-http-breakdown.png" alt="&quot;Breakdown of latency inflation across various components of HTTP fetches of just the HTML of the landing pages of popular Web sites.&quot;" title="Breakdown of latency inflation across various components of HTTP fetches of just the HTML of the landing pages of popular Web sites." /></p>
+
+<p>DNS resolutions are shown to be faster than c-latency <em>14%</em> of the time. This is an artifact of the baseline we use — in these cases, the Web server happens to be farther than the DNS resolver, and we always use the c-latency to the Web server as the baseline. (The DNS curve is clipped at the left to more clearly display the other results.) In the median, DNS resolutions are <em>6.6×</em> inflated over c-latency.</p>
+
+<p>The TCP transfer time shows significant inflation — <em>12.6×</em> in the median. With most pages being at most tens of KB (median page size is <em>73 KB</em>), bandwidth is not the problem, but TCP’s slow start causes even small data transfers to require several RTTs. <em>6%</em> of all pages have transfer times less than the c-latency — this is due to all the data being received in the first TCP window. The TCP handshake (counting only the <em>SYN</em> and <em>SYN-ACK</em>) and the minimum ping time are <em>3.2×</em> and <em>3.1×</em> inflated in the median. The request-response time is <em>6.5×</em> inflated in the median, i.e., roughly twice the median RTT. <em>24%</em> of the connections, however, use less than <em>10 ms</em> of server processing time (estimated by subtracting one RTT from the request-response time). The median c-latency, in comparison, is <em>47 ms</em>. The medians of inflation in DNS time, TCP handshake time, request-response time, and TCP transfer time add up to <em>28.8×</em>, lower than the measured median total time of <em>36.5×</em>, since the distributions are <em>heavy-tailed</em>.</p>
+
+<h3 id="infrastructural-factor">Infrastructural factor</h3>
+
+<p>In line with the community’s understanding, our measurements affirm that TCP transfer and DNS resolution are important factors causing latency inflation. Our measurements also reveal that, however, the Internet’s infrastructural inefficiencies are an equally, if not more important culprit.</p>
+
+<p>Based on the above figure, DNS resolution (<em>6.6×</em> inflated over c-latency), TCP handshake (<em>3.2×</em>), request-response time (<em>6.5×</em>), and TCP transfer (<em>12.6×</em>), all contribute to a total time inflation of <em>36.5×</em>. With these numbers, it may be tempting to dismiss the <em>3.1×</em> inflation in the minimum ping time. But this would be incorrect because lower-layer inflation, embodied in RTT, has a multiplicative effect on each of DNS, TCP handshake, request-response, and TCP transfer time. The total time for a page fetch (without TLS) can be broken down roughly (ignoring minor factors like the client stack) as: <em>T<sub>total</sub> = T<sub>DNS</sub> + T<sub>handshake</sub> + T<sub>request</sub> + T<sub>serverproc</sub> + T<sub>response</sub> + T<sub>transfer</sub></em>. If we changed the network’s RTTs as a whole by a factor of <em>x</em>, everything on the right-hand side except the server processing time (which can be made quite small in practice) changes by a factor of <em>x</em> (to an approximation; TCP transfer time’s dependence on RTTs is a bit more complex), thus changing <em>T<sub>total</sub></em> by approximately a factor of <em>x</em> as well.</p>
+
+<h3 id="the-grand-challenge">The Grand Challenge</h3>
+
+<p>There is a large body of work on reducing Internet latency. This work, however, has been limited in its scope, its scale, and most crucially, its ambition. The central question we have not seen answered, or even posed before, is <em>“Why are we so far from the speed of light?“</em>. Even the ramifications of a speed-of-light Internet have not been explored in any depth.</p>
+
+<p>Speed-of-light Internet connectivity would be a technological leap with the potential for new applications, instant response, and radical changes in the interactions between people and computing. To shed light on what’s keeping us from this vision, we quantified the latency gaps introduced by the Internet’s physical infrastructure and its network protocols. <em>Our analysis suggests that the networking community should, in addition to continuing efforts for protocol improvements, also explore methods of reducing latency at the lowest layers.</em></p>
+
+<p>For more information on our analysis, data sets, and vision refer to our <a href="/publications">publications</a>.</p>
+
+        </section>
+
+    </article>
+
+</main>
+<!-- /post -->
+
+
+        <footer class="site-footer clearfix">
+          <section class="copyright"><a href="/">The Internet at the Speed of Light</a> &copy; 2022</section>
+          <section class="poweredby">Proudly published with <a href="https://jekyllrb.com/">Jekyll</a> using <a href="https://github.com/biomadeira/jasper">Jasper</a></section>
+        </footer>
+    </div>
+    <!-- [[! Ghost outputs important scripts and data with this tag ]] -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <!-- [[! The main JavaScript file for Casper ]] -->
+    <script type="text/javascript" src="/assets/js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="/assets/js/index.js"></script>
+</body>
+</html>

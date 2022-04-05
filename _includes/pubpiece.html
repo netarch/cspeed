@@ -1,0 +1,21 @@
+<section class="post-content">
+    <table>
+        <td>
+            <section class="post-excerpt">
+                <p class="pub-title"><i>“{{ pub.title }}”</i></p>
+                <p class="pub-authors">{{ pub.authors }}</p>
+                <p class="pub-venue">{{ pub.venue }}</p>
+            </section>
+            <section class="post-meta">
+                {% if pub.noteworthy %}
+                <div class="pub-noteworthy"><b>• {{ pub.noteworthy }} •</b></div>
+                {% endif %}
+                <a href="{{ site.baseurl }}{{ pub.pdf }}">PAPER</a>
+                {% if pub.bib %}
+                <a class="post-date" href="{{ site.baseurl }}{{ pub.bib }}">BIBTEX</a>
+                {% endif %}
+                <time class="post-date" datetime="{{ pub.ts | date:'%Y-%m' }}">{{ pub.ts }}</time>
+            </section>
+        </td>
+    </table>
+</section>

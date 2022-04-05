@@ -1,0 +1,55 @@
+---
+layout: default
+class: 'page-template'
+---
+<!-- < default -->
+
+{% include page_banner.html %}
+
+<main class="content" role="main">
+    <article class="post">
+
+        {% for member in site.data.team %}
+        <section class="post-content">
+            <table>
+                <td class="member-image">
+                    <img src="{{ site.baseurl }}{{ member.mugshot }}" alt="{{ member.name }}, {{ member.title }}"></img>
+                </td>
+                <td>
+                    <section class="post-excerpt">
+                        <h5><b>{{ member.name }}</b></h5>
+                        <p><i>{{ member.title }}</i></p>
+                        <p class="member-descr">{{ member.descr | markdownify }}</p>
+                    </section>
+                    <section class="more-info">
+                        <a href="{{ member.website }}">{{ member.website }}</a>
+                    </section>
+                </td>
+            </table>
+        </section>
+        {% endfor %}
+
+        {% for member in site.data.past_team %}
+        <section class="post-content">
+            <table>
+                <td class="member-image">
+                    <img src="{{ site.baseurl }}{{ member.mugshot }}" alt="{{ member.name }}, {{ member.title }}"></img>
+                </td>
+                <td>
+                    <section class="post-excerpt">
+                        <h5><b>{{ member.name }}</b></h5>
+                        <p><i>{{ member.title }}</i></p>
+                        <p class="member-descr">{{ member.descr | markdownify }}</p>
+                    </section>
+                    <section class="more-info">
+                        <a href="{{ member.website }}">{{ member.website }}</a>
+                    </section>
+                </td>
+            </table>
+        </section>
+        {% endfor %}
+
+    </article>
+
+</main>
+<!-- /post -->

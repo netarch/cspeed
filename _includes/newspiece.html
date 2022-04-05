@@ -1,0 +1,12 @@
+<ul class="post-excerpt">
+    <li>
+        <p>{{ newsitem.text | markdownify }}</p>
+        {% if newsitem.noteworthy %}
+        <p>{{ newsitem.noteworthy | markdownify }}</p>
+        {% endif %}
+        <p class="post-meta">
+            <a href='{{ newsitem.refurl }}'>{{ newsitem.reftext }}</a>
+            <time class="post-date" datetime="{{ newsitem.date | date:'%Y-%m-%d' }}">{{ newsitem.date | date_to_string }}</time>
+        </p>
+    </li>
+</ul>

@@ -1,0 +1,72 @@
+- authors: Aqeel, W., Chandrasekaran, B., Feldmann, A., and Maggs, B. M.
+  title: "On Landing and Internal Pages: The Strange Case of Jekyll and Hyde in Internet Measurement"
+  venue: "In Proceedings of the ACM Internet Measurement Conference (IMC). 2020."
+  noteworthy: Community Contribution Award
+  ts: October 2020
+  pdf: assets/publications/aqeel-imc2020.pdf
+  bib: assets/publications/aqeel-imc2020.bib
+
+- authors: Bhattacherjee, D., Aqeel, W., Laughlin, G., Maggs, B. M., and Singla, A.
+  title: "A bird's eye view of the world's fastest networks"
+  venue: "In Proceedings of the ACM Internet Measurement Conference (IMC). 2020."
+  ts: October 2020
+  pdf: assets/publications/bhattacherjee-imc2020.pdf
+  bib: assets/publications/bhattacherjee-imc2020.bib
+
+- authors: Aqeel, W., Bhattacherjee, D., Chandrasekaran, B., Godfrey, P. B., Laughlin, G., Maggs, B. M., and Singla, A.
+  title: "Untangling Header Bidding Lore"
+  venue: "In Proceedings of the ACM Passive and Active Measurement: 18th International Conference, (PAM 2020)"
+  noteworthy: Best Dataset Award
+  ts: March 2020
+  pdf: assets/publications/aqeel-pam2020.pdf
+  bib: assets/publications/aqeel-pam2020.bib
+
+- authors: Bhattacherjee, D., and Singla, A.
+  title: "Network topology design at 27,000 km/hour"
+  venue: "In Proceedings of the 15th International Conference on Emerging Networking Experiments And Technologies (CoNEXT 2019), pp. 341–354"
+  ts: December 2019
+  pdf: assets/publications/bhattacherjee-conext2019.pdf
+  bib: assets/publications/bhattacherjee-conext2019.bib
+
+- authors: Bozkurt, I. N., Aqeel, W., Bhattacherjee, D., Chandrasekaran, B., Godfrey, P. B., Laughlin, G., Maggs, B. M., and Singla, A.
+  title: "Dissecting Latency in the Internet's Fiber Infrastructure"
+  venue: "CoRR abs/1811.10737"
+  ts: November 2018
+  pdf: assets/publications/bozkurt-corr2018.pdf
+  bib: assets/publications/bozkurt-corr2018.bib
+
+- authors: Bhattacherjee, D., Aqeel, W., Bozkurt, I. N., Aguirre, A., Chandrasekaran, B., Godfrey, P. B., Laughlin, G., Maggs, B. M., and Singla, A.
+  title: "Gearing up for the 21<sup>st</sup> century space race"
+  venue: "In Proceedings of the 17th ACM Workshop on Hot Topics in Networks (HotNets 2018) Pages 113-119 "
+  ts: November 2018
+  pdf: assets/publications/bhattacherjee-hotnets2018.pdf
+  bib: assets/publications/bhattacherjee-hotnets2018.bib
+
+- authors: Bhattacherjee, D., Jyothi, S. A., Bozkurt, I. N., Tirmazi, M., Aqeel, W., Aguirre, A., Chandrasekaran, B., Godfrey, P. B., Laughlin, G., Maggs, B. M., and Singla, A.
+  title: "cISP: A Speed-of-Light Internet Service Provider"
+  venue: "CoRR abs/1809.10897"
+  ts: September 2018
+  pdf: assets/publications/bhattacherjee-corr2018.pdf
+  bib: assets/publications/bhattacherjee-corr2018.bib
+
+- authors: Bozkurt, I. N., Aguirre, A., Chandrasekaran, B., Godfrey, P. B., Laughlin, G., Maggs, B., and Singla, A.
+  title: Why Is the Internet so Slow?!
+  venue: "In Proceedings of the ACM Passive and Active Measurement: 18th International Conference, (PAM 2017), pp. 173–187"
+  noteworthy: Best Dataset Award
+  ts: March 2017
+  pdf: assets/publications/bozkurt-pam2017.pdf
+  bib: assets/publications/bozkurt-pam2017.bib
+
+- authors: Singla, A., Chandrasekaran, B., Godfrey, P. B., and Maggs, B. M.
+  title: Towards a Speed of Light Internet
+  venue: "CoRR abs/1505.03449"
+  ts: May 2015
+  pdf: assets/publications/singla-corr2015.pdf
+  bib: assets/publications/singla-corr2015.bib
+
+- authors: Singla, A., Chandrasekaran, B., Godfrey, P. B., and Maggs, B.
+  title: The Internet at the Speed of Light
+  venue: "In Proceedings of the 13th ACM Workshop on Hot Topics in Networks (HotNets 2014), pp. 1:1–1:7"
+  ts: November 2014
+  pdf: assets/publications/singla-hotnets2014.pdf
+  bib: assets/publications/singla-hotnets2014.bib

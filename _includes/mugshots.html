@@ -1,0 +1,48 @@
+<section class="post-content">
+    <article class="post">
+        <header class="post-header">
+            <h1 class="post-title">The Team</h1>
+        </header>
+        <table>
+            <tbody>
+                <tr>
+                {% for member in site.data.team %}
+                    <td class="member-image">
+                        <a title="{{ member.name }}, {{ member.title }}" href="{{ site.baseurl }}team"><img src="{{ site.baseurl }}{{ member.mugshot }}" alt="{{ member.name }}, {{ member.title }}"></img></a>
+                    </td>
+                    {% if forloop.index == 5 or forloop.index == 10 %}
+                </tr>
+                <tr><!-- empty tag -->
+                </tr>
+                <tr>
+                    {% endif %}
+                {% endfor %}
+                </tr>
+            </tbody>
+        </table>
+
+        <h4>Past team members</h4>
+        <table>
+            <tbody>
+                <tr>
+                {% for member in site.data.past_team %}
+                    <td class="member-image">
+                        <a title="{{ member.name }}, {{ member.title }}" href="{{ site.baseurl }}team"><img src="{{ site.baseurl }}{{ member.mugshot }}" alt="{{ member.name }}, {{ member.title }}"></img></a>
+                    </td>
+                    {% if forloop.index == 5 or forloop.index == 10 %}
+                </tr>
+                <tr><!-- empty tag -->
+                </tr>
+                <tr>
+                    {% endif %}
+                {% endfor %}
+                <td style="width:128px;"></td>   <!-- extra cells for 3 empty spots -->
+                <td style="width:128px;"></td>   <!-- extra cells for 3 empty spots -->
+                <td style="width:128px;"></td>   <!-- extra cells for 3 empty spots -->
+                </tr>
+            </tbody>
+        </table>
+
+        <a class="more" href="{{ site.baseurl }}team">More information ...</a>
+    </article>
+</section>

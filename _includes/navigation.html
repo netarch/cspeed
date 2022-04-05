@@ -1,0 +1,15 @@
+<div class="nav">
+    <h3 class="nav-title">Menu</h3>
+    <a href="#" class="nav-close">
+        <span class="hidden">Close</span>
+    </a>
+    <ul>
+        <li class="nav-home {% if page.current == 'home' %} nav-current{% endif %}" role="presentation"><a href="{{ site.baseurl }}">Home</a></li>
+        <li class="nav-about {% if page.current == 'about' %} nav-current{% endif %}" role="presentation"><a href="{{ site.baseurl }}about">About</a></li>
+        <li class="nav-news {% if page.url contains 'news' %} nav-current{% endif %}" role="presentation"><a href="{{ site.baseurl }}news">News</a></li>
+        <li class="nav-talks {% if page.url contains 'talks' %} nav-current{% endif %}" role="presentation"><a href="{{ site.baseurl }}talks">Talks</a></li>
+        <li class="nav-pubs {% if page.url contains 'publications' %} nav-current{% endif %}" role="presentation"><a href="{{ site.baseurl }}publications">Publications</a></li>
+        <li class="nav-team {% if page.current == 'team' %} nav-current{% endif %}" role="presentation"><a href="{{ site.baseurl }}team">Team</a></li>
+    </ul>
+</div>
+<span class="nav-cover"></span>

@@ -1,0 +1,54 @@
+
+- name: Debopam Bhattacherjee
+  title: Ph.D. Student, ETH Zürich
+  descr: "Debopam is a PhD student at ETH Zürich, Systems Group. He is a graduate of the Erasmus Mundus NordSecMob program, and completed his Master’s studies at KTH Royal Institute of Technology, Sweden and Aalto University, Finland in 2016. He has a Bachelor’s degree from Jadavpur University, India."
+  mugshot: assets/images/mugshots/debopam.jpg
+  website: https://bdebopam.github.io/
+
+- name: Waqar Aqeel
+  title: Ph.D. Student, Duke University
+  descr: "Waqar is a PhD student at Duke University, Department of Computer Science. His research interests are internet measurements and future architectures, content caches, and online advertising."
+  mugshot: assets/images/mugshots/waqeel.jpg
+  website: https://waqaraqeel.github.io/
+
+- name: William Sentosa
+  title: Ph.D. Student, University of Illinois, Urbana-Champaign
+  descr: "William is a PhD student at University of Illinois, Urbana-Champaign, advised by Brighten Godfrey. He obtained his Bachelor degree from Bandung Institute of Technology, Indonesia in 2017. His research interest lies in the area of networked systems. He works on building applications for low-latency networks."
+  mugshot: assets/images/mugshots/william.jpeg
+  website: https://www.linkedin.com/in/william-sentosa-4a1866b5/
+
+- name: Anthony Aguirre
+  title: Associate Professor of Physics, University of California, Santa Cruz
+  descr: Anthony works on a variety of topics in theoretical cosmology, including the early universe and inflation, gravity physics, first stars, the intergalactic medium, galaxy formation, black holes, etc.
+  mugshot: assets/images/mugshots/anthony.jpg
+  website: http://scipp.ucsc.edu/~aguirre/Home.html
+
+- name: Balakrishnan Chandrasekaran
+  title: Assistant Professor, Vrije Universiteit Amsterdam
+  descr: "Bala is an assistant professor at Vrije Universiteit Amsterdam in Amsterdam, Netherlands, and his research focusses on the performance and security aspects of networked systems. Previously, he was a senior researcher at the Max-Planck-Institut für Informatik in Saarbrücken, Germany. He graduated with a PhD in 2016 from Duke University in Durham, USA and was advised by Prof. Bruce MacDowell Maggs."
+  mugshot: assets/images/mugshots/bala.jpg
+  website: https://balakrishnanc.github.io/
+
+- name: Philip Brighten Godfrey
+  title: Associate Professor, University of Illinois, Urbana-Champaign
+  descr: Brighten research interests span network design, and network verification. Brighten also serves as co-founder and CTO of Veriflow.
+  mugshot: assets/images/mugshots/brighten.jpg
+  website: http://pbg.cs.illinois.edu
+
+- name: Gregory P. Laughlin
+  title: Professor, Yale University
+  descr: Greg Laughlin is a Professor of Astronomy at Yale University, and is an expert on the detection and characterization of extrasolar planets. He also does research on financial econometrics, and has published [studies](http://onlinelibrary.wiley.com/doi/10.1111/fire.12036/abstract) of low-latency networks for transporting financial tick data. He is a co-founder of Metaculus, a community dedicated to generating accurate predictions about future real-world events by aggregating the collective insight of its participants.
+  mugshot: assets/images/mugshots/greg.jpg
+  website: http://astronomy.yale.edu/people/gregory-laughlin
+
+- name: Bruce M. Maggs
+  title: Pelham Wilder Professor of Computer Science, Duke University
+  descr: "Bruce Maggs received the S.B., S.M., and Ph.D. degrees in computer science from the Massachusetts Institute of Technology in 1985, 1986, and 1989, respectively. His advisor was Charles Leiserson. After spending one year as a Postdoctoral Associate at MIT, he worked as a Research Scientist at NEC Research Institute in Princeton from 1990 to 1993. In 1994, he moved to Carnegie Mellon, where he stayed until joining Duke University in 2009 as a Professor in the Department of Computer Science. While on a two-year leave-of-absence from Carnegie Mellon, Maggs was a founding employee of Akamai Technologies, serving as its first Vice President for Research and Development.  In 2018 he was part of a large team that received the inaugural SIGCOMM Networking Systems Award for the Akamai CDN, and was named an ACM Fellow.  Maggs is a professor at Duke University and Director of Engineering at Emerald Innovations."
+  mugshot: assets/images/mugshots/bruce.jpg
+  website: https://users.cs.duke.edu/~bmm/
+
+- name: Ankit Singla
+  title: Assistant Professor, ETH Zürich
+  descr: "Ankit Singla joined ETH Zürich as an Assistant Professor in the Department of Computer Science in 2016. Prior to that, he obtained his PhD in Computer Science at the University of Illinois at Urbana-Champaign in 2015, and his Bachelors in Technology (Computer Science) at IIT Bombay, India, in 2008. He is a winner of the 2012 Google PhD Fellowship, and the instructor of a massive open online course on [Cloud Networking](https://www.coursera.org/learn/cloud-networking)."
+  mugshot: assets/images/mugshots/ankit.jpg
+  website: https://people.inf.ethz.ch/asingla/

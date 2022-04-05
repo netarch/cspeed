@@ -1,0 +1,19 @@
+<header class="main-header post-head {% if page.cover %}" style="background-image: url({{ site.baseurl }}{{ page.cover }}){% else %}no-cover{% endif %}">
+    <nav class="main-nav {% if page.cover %}overlay{% endif %} clearfix">
+        {% if page.navigation %}
+            <a class="menu-button icon-menu" href="#"><span class="word">Menu</span></a>
+            {{ include navigation.html }}
+        {% endif %}
+    </nav>
+
+    <div class="vertical">
+        <div class="main-header-content inner">
+            <h1 class="page-title">{{ page.title }}</h1>
+            <h2 class="page-description">
+            {% if page.description %}
+                <i>{{ page.description }}</i>
+            {% endif %}
+            </h2>
+        </div>
+    </div>
+</header>

@@ -1,0 +1,96 @@
+- text: Waqar presented our paper _"On Landing and Internal Pages - The Strange Case of Jekyll and Hyde in Internet Measurement"_ at [ACM IMC 2020](https://conferences.sigcomm.org/imc/2020/schedule/).
+  noteworthy: Our paper received the **Community Contribution Award**!
+  reftext: ACM IMC 2020
+  refurl: https://conferences.sigcomm.org/imc/2020/schedule/
+  date: October 29, 2020
+
+- text: Debopam presented our paper _"A bird's eye view of the world's fastest networks"_ at [ACM IMC 2020](https://conferences.sigcomm.org/imc/2020/schedule/).
+  reftext: ACM IMC 2020
+  refurl: https://conferences.sigcomm.org/imc/2020/schedule/
+  date: October 29, 2020
+
+- text: Waqar presented our paper _"Untangling Header Bidding Lore"_ at the [ACM Passive and Active Measurements (PAM) Conference 2020](https://pam2020.cs.uoregon.edu/Program.html).
+  noteworthy: Our paper received the **Best Dataset Award**!
+  reftext: ACM PAM 2020
+  refurl: https://pam2020.cs.uoregon.edu/Program.html
+  date: March 31, 2020
+
+- text: The _"cSpeed"_ browser extension is live! Benchmarks your browsing experience by measuring load time for a list of popular Webpages.
+  refurl: https://tinyurl.com/y4lswlmo
+  date: March 19, 2020
+
+- text: Debopam was invited by [APNIC](https://www.apnic.net/) to write a blog post on our work "Network topology design at 27,000 km/hour"
+  reftext: APNIC blog post
+  refurl: https://blog.apnic.net/2020/02/25/network-topology-design-at-27000-km-hr/
+  date: February 25, 2020
+
+- text: Our paper _"Network topology design at 27,000 km/hour"_ at [ACM CoNEXT 2019, Orlando, Florida](https://conferences2.sigcomm.org/co-next/2019/#!/home) receives **IETF/IRTF Applied Networking Research Prize, 2020**
+  reftext: IETF/IRTF Applied Networking Research Prize
+  refurl: https://irtf.org/anrp/
+  date: December 17, 2019
+
+- text: Debopam presented our paper _"Network topology design at 27,000 km/hour"_ at [ACM CoNEXT 2019, Orlando, Florida](https://conferences2.sigcomm.org/co-next/2019/#!/home) in Orlando, Florida.
+  reftext: ACM CoNEXT 2019
+  refurl: https://conferences2.sigcomm.org/co-next/2019/#!/program
+  date: December 12, 2019
+
+- text: Online ad analytics extension, _MyAdPrice_, released on [Chrome](https://chrome.google.com/webstore/detail/myadprice/jlgpjclbdjpheiljedblbjkjjplolopm) and [Firefox](https://addons.mozilla.org/en-US/firefox/addon/myadprice/)
+  reftext: MyAdPrice
+  refurl: https://myadprice.com
+  date: January 21, 2019
+
+- text: Debopam presented our paper _"Gearing up for the 21<sup>st</sup> century space race"_ at the [ACM Workshop on Hot Topics in Networks (HotNets) 2018](https://conferences.sigcomm.org/hotnets/2018/) in Redmond, Washington.
+  reftext: ACM HotNets 2018
+  refurl: https://conferences.sigcomm.org/hotnets/2018/program.html
+  date: November 15, 2018
+
+- text: Article titled [_"Computer Scientist Shares Strategy for a Light-speed Internet"_](http://news.fordham.edu/science/computer-scientist-shares-strategy-for-a-light-speed-internet/) in the Fordham News Website covers Bruce's talk at Fordham University on our manifesto to operate the Internet at the Speed of Light.
+  reftext: Fordham News
+  refurl: http://news.fordham.edu/science/computer-scientist-shares-strategy-for-a-light-speed-internet/
+  date: April 4, 2017
+
+- text: Nadi presented our paper _"Why is the Internet so slow?!"_ at the [ACM Passive and Active Measurements (PAM) Conference 2017](https://research.csiro.au/pam2017/) in Sydney, Australia.
+  noteworthy: Our paper received the **Best Dataset Award**!
+  reftext: ACM PAM 2017
+  refurl: https://research.csiro.au/pam2017/program/
+  date: March 31, 2017
+
+- text: '_Slashdot: ["Microwave Comms Betwen Population Centers Could Be Key To Easing Internet Bottlenecks"](https://tech.slashdot.org/story/15/05/19/1452251/microwave-comms-betwen-population-centers-could-be-key-to-easing-internet-bottlenecks)_'
+  reftext: Slashdot
+  refurl: https://tech.slashdot.org/story/15/05/19/1452251/microwave-comms-betwen-population-centers-could-be-key-to-easing-internet-bottlenecks
+  date: May 19, 2015
+
+- text: Phil Johnson from _ITWorld_ covers our project in an article titled [_"How microwaves could help you surf the Internet at the speed of light"_](http://www.itworld.com/article/2923449/networking/how-microwaves-could-help-you-surf-the-internet-at-the-speed-of-light.html).
+  reftext: ITWorld
+  refurl: http://www.itworld.com/article/2923449/networking/how-microwaves-could-help-you-surf-the-internet-at-the-speed-of-light.html
+  date: May 19, 2015
+
+- text: "_The Star Tribune_ (formerly, _The Minneapolis Tribune_), [_\"Musicians looking for global jam hope to hit the speed of light\"_](http://www.startribune.com/musicians-looking-for-global-jam-hope-to-hit-the-speed-of-light/285669151/)."
+  reftext: The Star Tribune
+  refurl: http://www.startribune.com/musicians-looking-for-global-jam-hope-to-hit-the-speed-of-light/285669151/
+  date: December 13, 2014
+
+- text: "Oregon's _The Bulletin_, [_\"The speed of light: music to our ears?\"_](http://www.bendbulletin.com/home/2656638-151/the-speed-of-light-music-to-our-ears)."
+  reftext: The Bulletin
+  refurl: http://www.bendbulletin.com/home/2656638-151/the-speed-of-light-music-to-our-ears
+  date: December 6, 2014
+
+- text: _East Bay Times_ (formerly, _The Oakland Tribune_) republishes the article from the San Jose Mercury News [_"Music at the speed of light is researchers’ goal"_](http://www.eastbaytimes.com/2014/11/30/music-at-the-speed-of-light-is-researchers-goal/).
+  reftext: East Bay Times
+  refurl: http://www.eastbaytimes.com/2014/11/30/music-at-the-speed-of-light-is-researchers-goal/
+  date: November 30, 2014
+
+- text: Lisa Krieger discusses our project on the front page of _The San Jose Mercury News_ under the heading [_"Music at the speed of light is researchers’ goal"_](http://www.mercurynews.com/2014/11/30/music-at-the-speed-of-light-is-researchers-goal-2/).
+  reftext: The Mercury News
+  refurl: http://www.mercurynews.com/2014/11/30/music-at-the-speed-of-light-is-researchers-goal-2/
+  date: November 30, 2014
+
+- text: Ankit Singla presented our paper _"The Internet at the Speed of Light"_ at the [ACM Workshop on Hot Topics in Networks (HotNets) 2014](http://conferences.sigcomm.org/hotnets/2014/index.html) in Los Angeles, California.
+  reftext: ACM HotNets 2014
+  refurl: http://conferences.sigcomm.org/hotnets/2014/program.html
+  date: October 27, 2014
+
+- text: "Project  launch features in UIUC Computer Science Department's news column: [_\"Godfrey'S Team Sets Course For Speed-Of-Light Networking\"_](http://cs.illinois.edu/news/godfreys-team-sets-course-speed-light-networking)."
+  reftext: UIUC
+  refurl: http://cs.illinois.edu/news/godfreys-team-sets-course-speed-light-networking
+  date: August 18, 2014

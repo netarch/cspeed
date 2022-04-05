@@ -1,0 +1,25 @@
+
+- name: Ilker Nadi Bozkurt
+  title: Software Engineer, Google
+  descr: "Nadi obtained his PhD in Computer Science from Duke University. His thesis focused on better utilization of the physical Internet infrastructure to improve user experiences. He is currently a software engineer at the Network Architecture team at Google."
+  mugshot: assets/images/mugshots/nadi.jpg
+  website: https://users.cs.duke.edu/~ilker/
+
+- name: Sangeetha Abdu Jyothi
+  title: Assistant Professor at the University of California, Irvine
+  descr: "Sangeetha is an Assistant Professor at the University of California, Irvine. Her research interests are in the broad areas of computer networking and systems with a current focus on systems and machine learning. She completed her Ph.D. at the University of Illinois, Urbana-Champaign in 2019. She is a winner of the Facebook Graduate Fellowship (2017) and was invited to attend the Heidelberg Laureate Forum (2019) and the Rising Stars in EECS Workshop at MIT (2018)."
+  mugshot: assets/images/mugshots/sangeetha.jpg
+  website: https://www.ics.uci.edu/~sabdujyo
+
+- name: Muhammad Tirmazi
+  title: Ph.D. Student, Harvard University
+  descr: "Muhammad Tirmazi is a Computer Science PhD. student at Harvard University. He is advised by Dr. Minlan Yu and is part of the Cloud, Networks & Systems (CNS) lab. His current research focuses on programmable networks and distributed data analytics systems. In particular, he likes to solve problems that prevent very large systems from being very fast as well."
+  mugshot: assets/images/mugshots/muhammad.jpg
+  website: http://tirmazi.net/
+
+- name: Alejandro Ortega
+  title: Undergraduate Student, Duke University
+  descr: "Alejandro completed his Bachelors in Mathematics and Computer Science at Duke University in 2019. He will be joining Google as a software engineer."
+  mugshot: assets/images/mugshots/alejandro.jpg
+  website: https://413j4ndr0.github.io/
+
