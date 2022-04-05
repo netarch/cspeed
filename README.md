@@ -48,4 +48,4 @@ Run the shell script `build-site.sh` from the Website's root directory.
 
 ## Deploying the site
 
-Copy contents of `_site` to target location.
+The contents of `_site` will automatically be served at `cspeed.github.io` after every commit.
