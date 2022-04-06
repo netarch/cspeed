@@ -1,4 +1,4 @@
-- title: cISP: A Speed-of-Light Internet Service Provider
+- title: "cISP: A Speed-of-Light Internet Service Provider"
   speaker: Waqar Aqeel
   venue: USENIX NSDI 2022
   date: April 06, 2022
@@ -13,7 +13,7 @@
   venue: HotMobile 2021
   date: February 24, 2021
 
-- title: On Landing and Internal Pages: The Strange Case of Jekyll and Hyde in Internet Measurement
+- title: "On Landing and Internal Pages: The Strange Case of Jekyll and Hyde in Internet Measurement"
   speaker: Waqar Aqeel
   venue: ACM IMC 2020
   date: October 29, 2020
