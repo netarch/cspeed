@@ -1,13 +1,13 @@
 
 - name: Debopam Bhattacherjee
-  title: Ph.D. Student, ETH Zürich
-  descr: "Debopam is a PhD student at ETH Zürich, Systems Group. He is a graduate of the Erasmus Mundus NordSecMob program, and completed his Master’s studies at KTH Royal Institute of Technology, Sweden and Aalto University, Finland in 2016. He has a Bachelor’s degree from Jadavpur University, India."
-  mugshot: assets/images/mugshots/debopam.jpg
+  title: Senior Researcher, Microsoft Research - India
+  descr: "Debopam's research focuses on computer networks, more specifically on broadband satellite networks, Internet architecture, and network latency. Before joining Microsoft Research, he earned his PhD in Computer Science from ETH Zürich in 2021."
+  mugshot: assets/images/mugshots/debopam.png
   website: https://bdebopam.github.io/
 
 - name: Waqar Aqeel
-  title: Ph.D. Student, Duke University
-  descr: "Waqar is a PhD student at Duke University, Department of Computer Science. His research interests are internet measurements and future architectures, content caches, and online advertising."
+  title: Software Engineer, Google
+  descr: "Waqar works on Internet architecture, pushing the Internet towards better performance, security, and privacy without requiring a clean-slate design. He earned his PhD in Computer Science from Duke University in 2021."
   mugshot: assets/images/mugshots/waqeel.jpg
   website: https://waqaraqeel.github.io/
 
@@ -48,7 +48,7 @@
   website: https://users.cs.duke.edu/~bmm/
 
 - name: Ankit Singla
-  title: Assistant Professor, ETH Zürich
-  descr: "Ankit Singla joined ETH Zürich as an Assistant Professor in the Department of Computer Science in 2016. Prior to that, he obtained his PhD in Computer Science at the University of Illinois at Urbana-Champaign in 2015, and his Bachelors in Technology (Computer Science) at IIT Bombay, India, in 2008. He is a winner of the 2012 Google PhD Fellowship, and the instructor of a massive open online course on [Cloud Networking](https://www.coursera.org/learn/cloud-networking)."
+  title: Computer networking researcher and engineer, Google
+  descr: "Ankit served as an Assistant Professor in the Department of Computer Science, ETH Zürich between 2016 and 2022. Prior to that, he obtained his PhD in Computer Science at the University of Illinois at Urbana-Champaign in 2015, and his Bachelors in Technology (Computer Science) at IIT Bombay, India, in 2008. He is a winner of the 2012 Google PhD Fellowship, and the instructor of a massive open online course on [Cloud Networking](https://www.coursera.org/learn/cloud-networking)."
   mugshot: assets/images/mugshots/ankit.jpg
   website: https://people.inf.ethz.ch/asingla/

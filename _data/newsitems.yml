@@ -1,3 +1,8 @@
+- text: William presented our paper _"Accelerating Mobile Applications With Parallel High-bandwidth and Low-latency Channels"_ at [HotMobile 2021](https://hotmobile.org/2021/).
+  reftext: HotMobile 2021
+  refurl: https://hotmobile.org/2021/index.php?id=program
+  date: February 24, 2021
+
 - text: Waqar presented our paper _"On Landing and Internal Pages - The Strange Case of Jekyll and Hyde in Internet Measurement"_ at [ACM IMC 2020](https://conferences.sigcomm.org/imc/2020/schedule/).
   noteworthy: Our paper received the **Community Contribution Award**!
   reftext: ACM IMC 2020
