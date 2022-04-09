@@ -30,4 +30,4 @@ clean:
 rebuild: clean | build
 
 serve: build
-	@$(BUNDLER) exec jekyll serve
+	@$(BUNDLER) exec jekyll serve -w
