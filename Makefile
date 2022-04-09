@@ -4,9 +4,6 @@ BUNDLER := bundle
 # Contents of the public website.
 SITE_DIR := _site
 
-# Excludes.
-EXCLUDES := $(SITE_DIR)/Makefile $(SITE_DIR)/.envrc
-
 
 ERR_MSG = Error: cannot find '$(BUNDLER)' in path
 
