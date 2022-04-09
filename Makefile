@@ -2,7 +2,7 @@
 BUNDLER := bundle
 
 # Contents of the public website.
-SITE_DIR := _site
+SITE_DIR := docs
 
 
 ERR_MSG = Error: cannot find '$(BUNDLER)' in path

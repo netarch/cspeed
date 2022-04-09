@@ -53,7 +53,7 @@ lsi: false
 #-  or "master" otherwise
 # branch: <master|...>
 # relative_source: ../jasper/
-# destination: ../jasper-pages/
+destination: ./docs
 # production_url: <...>
 # source_url: <...>
 
