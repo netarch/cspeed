@@ -58,13 +58,16 @@ destination: ./docs
 # source_url: <...>
 
 exclude:
-  - README.md
-  - Rakefile
+  - .envrc
+  - .sass-cache/
+  - .jekyll-cache/
+  - .travis.yml
+  - node_modules/
+  - gemfiles/
+  - vendor/
+  - changelog.md
+  - Makefile
   - Gemfile
   - Gemfile.lock
-  - changelog.md
-  - "*.Rmd"
-  - vendor
-  - .travis.yml
-  - Makefile
-  - .envrc
+  - README.md
+  - Rakefile
