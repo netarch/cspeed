@@ -23,7 +23,7 @@ author: 'Team cSpeed'
 # short_url: '...'
 # google_analytics: ...
 # disqus: <username>
-baseurl: /cspeed.net/
+baseurl: /cspeed/
 
 #- Permalinks
 permalink: /:title
