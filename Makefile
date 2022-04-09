@@ -14,10 +14,9 @@ bundler_chk =                              \
 					exit 1)
 
 
-.PHONY: build compile clean serve
+.PHONY: build compile clean rebuild serve
 
 
-# The `pipe` forces order.
 build: compile
 
 compile:
@@ -26,6 +25,9 @@ compile:
 
 clean:
 	@rm -rf $(SITE_DIR)
+
+# The `pipe` forces order.
+rebuild: clean | build
 
 serve: build
 	@$(BUNDLER) exec jekyll serve
