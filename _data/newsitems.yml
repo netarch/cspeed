@@ -1,5 +1,10 @@
+- text: "Waqar presented our paper _\"cISP: A Speed-of-Light Internet Service Provider\"_ at [NSDI 2022](https://www.usenix.org/conference/nsdi22)."
+  reftext: USENIX NSDI 2022
+  refurl: https://www.usenix.org/conference/nsdi22/technical-sessions
+  date: April 6, 2022
+
 - text: William presented our paper _"Accelerating Mobile Applications With Parallel High-bandwidth and Low-latency Channels"_ at [HotMobile 2021](https://hotmobile.org/2021/).
-  reftext: HotMobile 2021
+  reftext: ACM HotMobile 2021
   refurl: https://hotmobile.org/2021/index.php?id=program
   date: February 24, 2021
 
