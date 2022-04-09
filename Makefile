@@ -17,21 +17,18 @@ bundler_chk =                              \
 					exit 1)
 
 
-.PHONY: build compile clean wipe serve
+.PHONY: build compile clean serve
 
 
 # The `pipe` forces order.
-build: | compile clean
+build: compile
 
 compile:
 	$(call bundler_chk)
 	@$(BUNDLER) exec jekyll build
 
 clean:
-	@rm -f $(EXCLUDES)
+	@rm -rf $(SITE_DIR)
 
 serve: build
 	@$(BUNDLER) exec jekyll serve
-
-wipe:
-	@rm -rf $(SITE_DIR)
